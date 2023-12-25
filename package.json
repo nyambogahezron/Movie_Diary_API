@@ -1,7 +1,8 @@
 {
-  "name": "connect-social-media-app-api",
+  "name": "movie-diary-api",
   "version": "1.0.0",
-  "description": "connent-social-media-app-api",
+  "description": "movie-diary-api",
+  "type":"module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
