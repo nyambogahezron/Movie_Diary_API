@@ -1,6 +1,6 @@
 import asyncHandler from 'express-async-handler';
 import User from '../models/userModel.js';
-import generateToken from '../utils/generateToken.js';
+import generateToken from '../utils/jwt.js';
 
 // @desc    Login/Auth user & get token
 // @endpoint   POST /api/users/auth

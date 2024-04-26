@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 import { errorHandler } from './middleware/errorMiddleware.js';
 import { notFound } from './errors/customErrors.js';
 import connectDB from './config/db.js';
-import userRoutes from './routes/authRoutes.js';
+import authRoutes from './routes/authRoutes.js';
 const app = express();
 
 //middlewares
